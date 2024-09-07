@@ -1,11 +1,5 @@
 do
 	getgenv().SecureMode = true
-	if game.GameId == 4639625707 then
-		return
-	end
-	if _G.MenuOpen then
-		game:Shutdown()
-	end
 	_G.MenuOpen = true
 	local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"))()
 	local Window = Rayfield:CreateWindow({
