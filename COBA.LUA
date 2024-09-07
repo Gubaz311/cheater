@@ -3,8 +3,7 @@ do
 	_G.MenuOpen = true
 	local success, Rayfield = pcall(function()
         return loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
-    	end
-		)
+    	end)
 	if success and Rayfield then
 		local Window = Rayfield:CreateWindow({
 			Name = "🔥 War Tycoon Hub | Abacate7 Menu V3",
